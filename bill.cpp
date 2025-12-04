@@ -10,6 +10,5 @@ int main()
 	int amount=y*100;
 	printf("total sum is :%d",amount);
 	return 0;
+}
 
-zxcvbnm,./sdfghjkl;'
-234567890-	qwertyuiopasdfghjkl;zxcvbnm,.asdfghjk'
