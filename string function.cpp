@@ -25,5 +25,6 @@ int main() {
 		}
 	}
 		printf("vowels: %d\n consonants: %d\n digits: %d\n spaces: %d\n",v,c,d,p);
-	
+	    return 0;
 	}
+
