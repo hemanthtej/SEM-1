@@ -2,13 +2,13 @@
 int main() {
  FILE *sourceFile, *destinationFile;
  char ch;
- // Open the source file for reading
+
  sourceFile = fopen("input.txt", "r");
  if (sourceFile == NULL) {
  perror("Error opening source file");
  return 1;
  }
- // Open the destination file for writing
+
  destinationFile = fopen("output.txt", "w");
  if (destinationFile == NULL) {
  perror("Error opening destination file");
@@ -25,4 +25,5 @@ int main() {
  printf("File copied successfully.\n");
  return 0;
 }
+
 
